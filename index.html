@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <div class="navbar"> 
+<img src="logo.png" alt="" srcset="" width="50px">
+<div>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="post.html">Create Post</a>
+    <a href="index.html">Login</a>
+</div>
+
+
+    </div>
+
+    <h1>Create an Account</h1>
+    <form action="" id="rUser" >
+        <input type="text" placeholder="name">
+        <input type="text" placeholder="phone">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="password">
+        <button type="submit" value="submit" onclick="registerUser()" >Register</button>
+    </form>
+    
+    <h1>Login to an existing account</h1>
+    <form action="" id="rUser" >
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="password">
+        <button onclick="loginUser()" type="submit" value="submit">Login</button>
+    </form>
+</body>
+</html>
