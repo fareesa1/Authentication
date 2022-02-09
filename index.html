@@ -22,18 +22,18 @@
 
     <h1>Create an Account</h1>
     <form action="" id="rUser" >
-        <input type="text" placeholder="name">
-        <input type="text" placeholder="phone">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="password">
-        <button type="submit" value="submit" onclick="registerUser()" >Register</button>
+        <input type="text" placeholder="name" id="nameInp">
+        <input type="text" placeholder="phone" id="phoneInp" >
+        <input type="email" placeholder="Email" id="mailInp">
+        <input type="password" placeholder="password" id="passInp">
+        <button type="button" value="submit" onclick="registerUser()" >Register</button>
     </form>
     
     <h1>Login to an existing account</h1>
     <form action="" id="rUser" >
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="password">
-        <button onclick="loginUser()" type="submit" value="submit">Login</button>
+        <input type="email" placeholder="Email" id="email_l" >
+        <input type="password" placeholder="password" id="pass_l">
+        <button onclick="loginUser()" type="button" value="submit">Login</button>
     </form>
 </body>
 </html>

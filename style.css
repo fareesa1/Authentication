@@ -44,3 +44,12 @@ button{
 h1{
     text-align: center;
 }
+
+.card{
+    background-color: white;
+    display: flex;
+    margin:20px ;
+}
+p{
+    font-size: 12px;
+}
